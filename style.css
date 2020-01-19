@@ -1,0 +1,345 @@
+.title {
+  color: #333;
+  font-style: italic;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #008B8B;
+  width: 400px;
+  top: 15%;
+  color: white;
+}
+.topnav a.quotes {
+  background-color: #008B8B;
+  float: none;
+  width: 400px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.button1 {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 1.5%;
+  left: 7%;
+  background-color: #800000;
+  color: white;
+  font-size: 20;
+}
+
+.button2 {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 1.5%;
+  right: 7%;
+  background-color: #800000;
+  color: white;
+  font-size: 20;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.megha {
+  font-style: italic;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.vani {
+  font-style: italic;
+  position: absolute;
+  top: 20%;
+  right: 15%;
+}
+
+.meghaImage {
+  position: absolute;
+  top: 35%;
+  left: 14%;
+  width: 13.5%;
+  height: 38%;
+}
+
+.vaniImage {
+  position: absolute;
+  top: 35%;
+  right: 15%;
+  width: 16%;
+  height: 35%;
+}
+
+.both {
+  position: absolute;
+  top: 35%;
+  left: 32%;
+  width: 33%;
+  height: 35%;
+}
+
+.meghaPara {
+  position: absolute;
+  top: 71%;
+  left: 14%;
+  margin-left: 0px;
+  margin-right: 900px;
+}
+
+.bothPara {
+  position: absolute;
+  top: 75%;
+  left: 24%;
+  font-size: 24;
+  margin-left: 100px;
+  margin-right: 300px;
+}
+
+.vaniPara {
+  position: absolute;
+  top: 70%;
+  left: 65%;
+  margin-left: 50px;
+  margin-right: 200px;
+}
+
+.pictures{
+  position: absolute;
+  top: 21%;
+  right: 15%;
+  left: 40%;
+  width: 255px;
+  height: 300px;
+}
+
+.data {
+  position: absolute;
+  top: 75%;
+  left: 18%;
+  font-size: 22;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 300px;
+}
+
+.quote1 {
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  font-size: 20;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 300px;
+  color: #800000;
+  font-style: italic;
+}
+
+.quote2 {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  font-size: 20;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #333;
+  font-style: italic;
+}
+
+.quote3 {
+  position: absolute;
+  top: 24%;
+  left: 18%;
+  font-size: 23;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #800000;
+  font-style: italic;
+}
+
+.quote4 {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-size: 25;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 300px;
+  color: #2F4F4F;
+  font-style: italic;
+}
+
+.quote5 {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  font-size: 20;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #B22222;
+  font-style: italic;
+}
+.quote6 {
+  position: absolute;
+  top: 90%;
+  left: 6%;
+  font-size: 23;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #32cd32;
+  font-style: italic;
+}
+
+.quote7 {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  font-size: 24;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #000080;
+  font-style: italic;
+}
+
+.quote8 {
+  position: absolute;
+  top: 42%;
+  left: 60%;
+  font-size: 24;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #800000;
+  font-style: italic;
+}
+
+.quote9 {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  font-size: 20;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #800000;
+  font-style: italic;
+}
+
+.quote10 {
+  position: absolute;
+  top: 75%;
+  left: 10%;
+  font-size: 22;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: #000080;
+  font-style: italic;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  max-height: 50%;
+  position: absolute;
+  top: 21%;
+  right: 15%;
+  left: 40%;
+}
+
+.img-thumbnail2 {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 30%;
+  max-height: 50%;
+  position: absolute;
+  top: 35%;
+  right: 8%;
+}
+
+.img-thumbnail3 {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 30%;
+  max-height: 50%;
+  position: absolute;
+  top: 30%;
+  right: 65%;
+}
+
+.img-thumbnail4 {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 30%;
+  max-height: 50%;
+  position: absolute;
+  top: 65%;
+  right: 70%;
+}
+
+.img-thumbnail5 {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 30%;
+  max-height: 40%;
+  position: absolute;
+  top: 68%;
+  right: 10%;
+}
+.img-thumbnail6 {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 30%;
+  max-height: 40%;
+  position: absolute;
+  top: 50%;
+  right: 45%;
+}
+
+.orgDescrip {
+  text-align: center;
+  font-style: italic;
+}
